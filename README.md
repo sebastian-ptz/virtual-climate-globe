@@ -15,7 +15,7 @@ Es werden Wetterdaten von der OpenWeatherMap API benötigt. Diese werden Projekt
 In diesem Projekt wurde das kostenpfichtige Asset aus dem Unity Asset Store verwendet
 - [Unity Asset Store -  World Map Globe Edition 2](https://assetstore.unity.com/packages/tools/gui/world-map-globe-edition-2-150643)
 
-## Units Editor Version
+### Units Editor Version
 - [Unity Eiditor 2021.3.14f1]([https://www.python.org/](https://unity.com/releases/editor/whats-new/2021.3.14))
 
 ## Support
