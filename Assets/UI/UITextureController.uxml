@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; justify-content: flex-start; flex-direction: row;">
+        <ui:VisualElement name="Container" style="align-items: flex-start; justify-content: center; padding-left: 0; padding-right: 0; background-color: rgba(0, 0, 0, 0.19); padding-top: 15%; padding-bottom: 15%; flex-grow: 0; font-size: 12px; width: 172px; height: auto;">
+            <ui:SliderInt name="SliderDate" style="flex-direction: column; color: rgb(255, 255, 255);" />
+            <ui:DropdownField label="Interpolation" name="DropdownInterpolation" style="flex-direction: column; color: rgb(255, 255, 255); width: auto; height: auto; font-size: 12px;" />
+            <ui:DropdownField label="WeatherType" name="DropdownWeatherType" style="flex-direction: column; color: rgb(255, 255, 255); width: auto; height: auto;" />
+            <ui:Toggle label="Apply Visualisation" name="VisualizationToggle" style="justify-content: space-around; align-items: center; transform-origin: center; height: 37px; width: 182px; flex-direction: row-reverse; color: rgb(255, 255, 255); margin-left: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
