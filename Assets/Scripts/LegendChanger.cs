@@ -10,14 +10,11 @@ public class LegendChanger : MonoBehaviour
     public GameObject temperatureGradient;
     public GameObject humidityGradient;
 
-    void Start()
+    void Update()
     {
         var root = uiDocument.rootVisualElement;
         dropdownWeatherType = root.Q<DropdownField>("DropdownWeatherType");
-    }
-
-    void Update()
-    {
+    
         if (dropdownWeatherType.value == "Temperature")
         {
             humidityGradient.SetActive(false);
